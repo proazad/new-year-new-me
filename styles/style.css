@@ -23,7 +23,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: flex-end;
     align-items: center;
     height: 100vh;
@@ -54,4 +54,29 @@ header {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 25px;
+}
+
+/* Failure Section Styles Start Here  */
+.failure-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 0px;
+}
+
+.failure-left,
+.failure-right {
+    flex-basis: 350px;
+}
+.failure-img-container{
+} 
+.oerson-img{
+    max-width: 300px;
+}
+.failure-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
 }
